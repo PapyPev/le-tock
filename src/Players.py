@@ -9,64 +9,68 @@ class Players:
 		- his cards
 	"""
 
-	# Attributes from this class
 	numberOfPlayer = 0
+
+	################### CONSTRUCTOR ###################
 
 	def __init__(self, name, color, teammate):
 		""" Constructor of one Player """
 
 		# Auto increment for the Player id
-		numberOfPlayer += 1
-		self.id = numberOfPlayer
+		Players.numberOfPlayer += 1
+		self._id = Players.numberOfPlayer
 
 		# Player's name
-		self.name = name
+		self._name = name
 
 		# HTML color code
-		self.color = color
+		self._color = color
 
 		# Co-worker for this game
-		self.teammate = teammate
+		self._teammate = teammate
 
 		# Pins' number during the game
-		self.tabPins = []
+		self._tabPins = None
 
 		# List of player's cards
-		self.tabCards = []
+		self._tabCards = None
 
 	################### GETTERS ###################
 
+	def _get_id():
+		return self._id
+
 	def _get_name():
-		return self.name
+		return self._name
 
 	def _get_color():
-		return self.color
+		return self._olor
 
 	def _get_teammate():
-		return self.teammate
+		return self._teammate
 
 	def _get_tabPins():
-		return self.tabPins
+		return self._tabPins
 
 	def _get_cards():
-		return self.cards
+		return self._cards
 
 	################### SETTERS ###################
 
 	def _set_name(newName):
-		self.name = newName
+		self._name = newName
 
 	def _set_color(newColor):
-		self.color = newColor
+		self._color = newColor
 
 	def _set_teammate(newTeammate):
-		self.teammate = newTeammate
+		self._teammate = newTeammate
 
 	def _set_pinsStart(newTabPins):
-		self.tabPins = newTabPins
+		self._tabPins = newTabPins
 
 	def _set_cards(newTabCards):
-		self.tabCards = newTabCards
+		self._tabCards = newTabCards
 
 	################### FUNCTIONS ###################
 
@@ -75,8 +79,9 @@ class Players:
 		print "play"
 		# TODO
 
-#tagada = Players()
+
+################### TESTS ###################
+
 petipa = Players("petitpa", "#f7777", 1)
-
-petitpa._get_name()
-
+name = petipa._get_name()
+print name
