@@ -1,15 +1,6 @@
-le-tock
-=======
-
 <h1>Le Tock</h1>
 
 Il existe de nombreuses règles selon les payrs, régions et frabriquants du jeu. Le notre s'appuie sur les règle suivantes.
-
-Règles du jeu
-------
-
-Jeu de petit chevaux où les cartes remplacent la valeur du dé habituel.<br />
-// TODO
 
 <h2>Composition habituelle</h2>
 <ul>
@@ -22,7 +13,7 @@ Jeu de petit chevaux où les cartes remplacent la valeur du dé habituel.<br />
 <h2>Règles du jeu</h2>
 
 <p>
-	Le Tock se joue par équipe de deux sur la diagonale (<i>comme à la belotte</i>i>). Le but du jeu est d'être la première équipe a rentrer ses pions chez soi. Pour ce faire, on rentre ses propres pions, puis par la suite on peut jouer avec les pions de son coéquipier.
+	Le Tock se joue par équipe de deux sur la diagonale (<i>comme à la belotte</i>). Le but du jeu est d'être la première équipe a rentrer ses pions chez soi. Pour ce faire, on rentre ses propres pions, puis par la suite on peut jouer avec les pions de son coéquipier.
 </p>
 
 <p>
