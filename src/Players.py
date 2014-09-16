@@ -35,46 +35,53 @@ class Players:
 		# List of player's cards
 		self._tabCards = None
 
-	################### GETTERS ###################
+	################### GETTERS/SETTERS ###################
 
-	def _get_id():
+	@property
+	def id(self):
 		return self._id
-
-	def _get_name():
+	@id.setter
+	def id(self, value):
+		self._id = value
+	
+	@property
+	def name(self):
 		return self._name
+	@name.setter
+	def name(self, value):
+		self._name = value
+	
+	@property
+	def color(self):
+		return self._color
+	@color.setter
+	def color(self, value):
+		self._color = value
 
-	def _get_color():
-		return self._olor
-
-	def _get_teammate():
+	@property
+	def teammate(self):
 		return self._teammate
+	@teammate.setter
+	def teammate(self, value):
+		self._teammate = value
 
-	def _get_tabPins():
+	@property
+	def tabPins(self):
 		return self._tabPins
-
-	def _get_cards():
-		return self._cards
-
-	################### SETTERS ###################
-
-	def _set_name(newName):
-		self._name = newName
-
-	def _set_color(newColor):
-		self._color = newColor
-
-	def _set_teammate(newTeammate):
-		self._teammate = newTeammate
-
-	def _set_pinsStart(newTabPins):
-		self._tabPins = newTabPins
-
-	def _set_cards(newTabCards):
-		self._tabCards = newTabCards
+	@tabPins.setter
+	def tabPins(self, value):
+		self._tabPins = value
+	
+	@property
+	def tabCards(self):
+		return self._tabCards
+	@tabCards.setter
+	def tabCards(self, value):
+		self._tabCards = value
 
 	################### FUNCTIONS ###################
 
-	def play():
+	def play(self):
 
 		print("play")
 		# TODO
@@ -82,6 +89,14 @@ class Players:
 
 ################### TESTS ###################
 
-petipa = Players("petitpa", "#f7777", 1)
-name = petipa._get_name()
-print(name)
+tagada = Players("tagado", "blue", None)
+name = tagada.name
+did = tagada.id
+print(name, did)
+
+petitpois = Players("petitpois", "red", 1)
+name = petitpois.name
+did = petitpois.id
+print(name, did)
+
+tagada.play()
