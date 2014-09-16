@@ -32,14 +32,10 @@ Il existe de nombreuses règles selon les payrs, régions et frabriquants du jeu
 			<td>14</td>
 			<td>Jocker</td>
 			<td>
-				<table>
-					<tr>
-						<td>Pion de départ <b>ou</b> Déplacement de 18</td>
-					</tr>
-					<tr>
-						<td>Pioche, et rejoue</td>
-					</tr>
-				</table>
+				<ul>
+					<li>Pion de départ <b>ou</b> Déplacement de 18</li>
+					<li>Pioche, et rejoue</li>
+				</ul>
 			</td>
 		</tr>
 		<tr>
