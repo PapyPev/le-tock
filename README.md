@@ -2,7 +2,7 @@
 
 Il existe de nombreuses règles selon les payrs, régions et frabriquants du jeu. Le notre s'appuie sur les règle suivantes.
 
-<h2>Composition habituelle</h2>
+<h2>Composition du jeu</h2>
 <ul>
 	<li>Un plateau de jeu</li>
 	<li>Un jeu de 52 cartes standard (dont 2 jockers)</li>
