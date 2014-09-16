@@ -76,7 +76,7 @@ class Players:
 
 	def play():
 
-		print "play"
+		print("play")
 		# TODO
 
 
@@ -84,4 +84,4 @@ class Players:
 
 petipa = Players("petitpa", "#f7777", 1)
 name = petipa._get_name()
-print name
+print(name)
