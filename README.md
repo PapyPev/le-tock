@@ -36,7 +36,9 @@ Il existe de nombreuses règles selon les payrs, régions et frabriquants du jeu
 					<tr>
 						<td>Pion de départ <b>ou</b> Déplacement de 18</td>
 					</tr>
-					<tr>Pioche, et rejoue</tr>
+					<tr>
+						<td>Pioche, et rejoue</td>
+					</tr>
 				</table>
 			</td>
 		</tr>
