@@ -1,4 +1,16 @@
-class Players:
+#!/usr/bin/env python
+# -*-coding:utf-8-*-
+
+#############################################################
+# Python Program											#
+# 															#
+# project	: le-tock										#
+# @authors	: Guillaume Josserand - Pierre Vrot				#
+# @date		: 2014-09-17									#
+# 															#
+#############################################################
+
+class Players(object):
 
 	"""
 		This class describes a player by :
@@ -7,11 +19,17 @@ class Players:
 		- his teammate
 		- his pins (start, during, end)
 		- his cards
+
+		This class have methods, like :
+		- playCard()	: play a card and call the card actions
+		- throwCard()	: throw away the player cards
+		- drawCard()	: draw a card from the pickaxe
 	"""
 
+	# Define the number of instances' class
 	numberOfPlayer = 0
 
-	################### CONSTRUCTOR ###################
+	### CLASS CONSTRUCTOR ###################################
 
 	def __init__(self, name, color, teammate):
 		""" Constructor of one Player """
@@ -35,7 +53,7 @@ class Players:
 		# List of player's cards
 		self._tabCards = None
 
-	################### GETTERS/SETTERS ###################
+	### GETTERS/SETTERS #####################################
 
 	@property
 	def id(self):
@@ -79,15 +97,23 @@ class Players:
 	def tabCards(self, value):
 		self._tabCards = value
 
-	################### FUNCTIONS ###################
+	### METHODS #############################################
 
-	def play(self):
+	def playCard(self):
 
 		print("play")
 		# TODO
 
+	def throwCard(self):
 
-################### TESTS ###################
+		print("throw")
+		# TODO
+
+	def drawCard(self):
+		print("draw")
+		# TODO
+
+#############################################################
 
 tagada = Players("tagado", "blue", None)
 name = tagada.name

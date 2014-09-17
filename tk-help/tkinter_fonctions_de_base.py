@@ -1,10 +1,9 @@
-#!/usr/bin/env python3.4
-
+#!/usr/bin/env python
 # -*-coding:utf-8-*-
 
 import os
 
-from tkinter import *
+from Tkinter import *
 
 def multiplier_par_3(nbAMultiplier=0):
 
