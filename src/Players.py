@@ -2,12 +2,18 @@
 # -*-coding:utf-8-*-
 
 #############################################################
-# Python Program											#
-# 															#
-# project	: le-tock										#
-# @authors	: Guillaume Josserand - Pierre Vrot				#
-# @date		: 2014-09-17									#
-# 															#
+# Python Program
+# 
+# project	: le-tock
+# @authors	: Guillaume Josserand - Pierre Vrot
+# @date		: 2014-09-17
+#
+#############################################################
+
+from scipy import *
+
+#############################################################
+### CLASS
 #############################################################
 
 class Players(object):
@@ -113,6 +119,8 @@ class Players(object):
 		print("draw")
 		# TODO
 
+#############################################################
+### MAIN
 #############################################################
 
 tagada = Players("tagado", "blue", None)

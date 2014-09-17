@@ -2,6 +2,16 @@
 
 Il existe de nombreuses règles selon les payrs, régions et frabriquants du jeu. Le notre s'appuie sur les règle suivantes.
 
+<h2>Avant-propos</h2>
+<p>
+	Pour un bon fonctionnement du jeu, il est nécessaire d'avoir: 
+	<ul>
+		<li>Python 2.4 ou plus</li>
+		<li>La librairie python : python-tk</li>
+		<li>La librairie scipy : python-scipy</li>
+	</ul>
+</p>
+
 <h2>Composition du jeu</h2>
 <ul>
 	<li>Un plateau de jeu</li>
