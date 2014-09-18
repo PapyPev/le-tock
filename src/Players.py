@@ -2,7 +2,7 @@
 # -*-coding:utf-8-*-
 
 #############################################################
-# Python Program
+# Python Program - Players.py
 # 
 # project	: le-tock
 # @authors	: Guillaume Josserand - Pierre Vrot
@@ -118,19 +118,3 @@ class Players(object):
 	def drawCard(self):
 		print("draw")
 		# TODO
-
-#############################################################
-### MAIN
-#############################################################
-
-tagada = Players("tagado", "blue", None)
-name = tagada.name
-did = tagada.id
-print(name, did)
-
-petitpois = Players("petitpois", "red", 1)
-name = petitpois.name
-did = petitpois.id
-print(name, did)
-
-tagada.play()
