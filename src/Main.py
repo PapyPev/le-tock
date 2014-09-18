@@ -12,6 +12,7 @@
 
 from Players import Players
 from Games import Games
+from Interface import Interface
 
 #############################################################
 ### MAIN
