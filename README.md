@@ -1,4 +1,4 @@
-<h1>Le Tock - Fait par Camille</h1>
+<h1>Le Tock.</h1>
 
 Il existe de nombreuses règles selon les payrs, régions et frabriquants du jeu. Le notre s'appuie sur les règle suivantes.
 
