@@ -44,8 +44,6 @@ for row in data['cells']:
     i=0
     j += 1
 root.mainloop()
-print(type(data['cells'][0][0]['x']))
-print(type(int(data['cells'][0][0]['x'])))
 
 ##print(data['cells'][0]) #--> La premiere ligne
 ##print(data['cells'][0][0])# -->La cellule
