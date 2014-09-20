@@ -30,8 +30,8 @@ data = json.loads(jsonString)
     
 #########################################################
 root=tkinter.Tk()
-size_grid_x = data['gridwidth']*10
-size_grid_y = data['gridheight']*10
+size_grid_x = data['gridwidth']*20
+size_grid_y = data['gridheight']*20
 fond=tkinter.Canvas(root, width=size_grid_x, height=size_grid_y, background='darkgray')
 fond.pack()
 i = 0
@@ -39,10 +39,19 @@ j = 0
 for row in data['cells']:
     for cel in row:
         
-        fond.create_rectangle(0 + cel['x']*10 , 0 + j*10, 10 + cel['x']*10, 10 + j*10, fill=data['cellTypes'][cel['type']]['color'])
+        if cel['type'] == 'teleportation':
+            fond.create_rectangle(0 + cel['x']*20 , 0 + j*20, 20 + cel['x']*20, 20 + j*20, fill=data['cellTypes']['teleportation']['color'])
+        #fond.create_rectangle(0 + cel['x']*20 , 0 + j*20, 10 + cel['x']*20, 20 + j*20, fill=data['cellTypes'][cel['type']]['color'])
+
+        elif cel['type'] == 'start':
+            fond.create_rectangle(0 + cel['x']*20 , 0 + j*20, 20 + cel['x']*20, 20 + j*20, fill=data['cellTypes']['start']['color'])
+        else:
+            fond.create_rectangle(0 + cel['x']*20 , 0 + j*20, 20 + cel['x']*20, 20 + j*20, fill=cel['player'])
+        
         i += 1
     i=0
-    j += 1
+    j += 1  
+
 root.mainloop()
 
 ##print(data['cells'][0]) #--> La premiere ligne

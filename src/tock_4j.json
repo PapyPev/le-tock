@@ -16,462 +16,566 @@
             "color": "white"
         }, 
         "box":{
-            "color": "white"
+           
         }
     },
     "cells": [
         [
             {
                 "type": "simpleroad",
-                "x": 7
+                "x": 7,
+                "player":"red"
             },
             {
                 "type": "simpleroad",
-                "x": 8
-            },
-            {
-                "type": "simpleroad",
-                "x": 9
-            },
-            {
-                "type": "simpleroad",
-                "x": 10
+                "x": 8,
+                "player":"red"
             },
             {
                 "type": "start",
-                "x": 11
+                "x": 9,
+                "player":"green"
+            },
+            {
+                "type": "simpleroad",
+                "x": 10,
+                "player":"green"
+            },
+            {
+                "type": "simpleroad",
+                "x": 11,
+                "player":"green"
             }
         ],
         [
             {
                 "type": "box",
-                "x": 1
+                "x": 1,
+                "player":"red"
             },
             {
                 "type": "box",
-                "x": 2
+                "x": 2,
+                "player":"red"
             },
             {
                 "type": "simpleroad",
-                "x": 7
+                "x": 7,
+                "player":"red"
             },
             {
                 "type": "ladder",
-                "x": 9
+                "x": 9,
+                "player":"green"
             },
             {
                 "type": "simpleroad",
-                "x": 11
+                "x": 11,
+                "player":"green"
             },
             {
                 "type": "box",
-                "x": 16
+                "x": 16,
+                "player":"green"
             },
             {
                 "type": "box",
-                "x": 17
+                "x": 17,
+                "player":"green"
             }
         ],
         [
             {
                 "type": "box",
-                "x": 1
+                "x": 1,
+                "player":"red"
             },
             {
                 "type": "box",
-                "x": 2
+                "x": 2,
+                "player":"red"
             },
             {
                 "type": "simpleroad",
-                "x": 7
+                "x": 7,
+                "player":"red"
             },
             {
                 "type": "ladder",
-                "x": 9
+                "x": 9,
+                "player":"green"
             },
             {
                 "type": "simpleroad",
-                "x": 11
+                "x": 11,
+                "player":"green"
             },
             {
                 "type": "box",
-                "x": 16
+                "x": 16,
+                "player":"green"
             },
             {
                 "type": "box",
-                "x": 17
+                "x": 17,
+                "player":"green"
             }
         ],
         [
             {
                 "type": "simpleroad",
-                "x": 7
+                "x": 7,
+                "player":"red"
             },
             {
                 "type": "ladder",
-                "x": 9
+                "x": 9,
+                "player":"green"
             },
             {
                 "type": "simpleroad",
-                "x": 11
+                "x": 11,
+                "player":"green"
             }
         ],
         [
             {
                 "type": "teleportation",
-                "x": 4
+                "x": 4,
+                "player":"red"
             },
             {
                 "type": "simpleroad",
-                "x": 5
+                "x": 5,
+                "player":"red"
             },
             {
                 "type": "simpleroad",
-                "x": 6
+                "x": 6,
+                "player":"red"
             },
             {
                 "type": "simpleroad",
-                "x": 7
+                "x": 7,
+                "player":"red"
             },
             {
                 "type": "ladder",
-                "x": 9
+                "x": 9,
+                "player":"green"
             },
             {
                 "type": "simpleroad",
-                "x": 11
+                "x": 11,
+                "player":"green"
             },
             {
                 "type": "simpleroad",
-                "x": 12
+                "x": 12,
+                "player":"green"
             },
             {
                 "type": "simpleroad",
-                "x": 13
+                "x": 13,
+                "player":"green"
             },
             {
                 "type": "teleportation",
-                "x": 14
+                "x": 14,
+                "player":"green"
             }
         ],
         [
             {
                 "type": "simpleroad",
-                "x": 4
+                "x": 4,
+                "player":"red"
             },
             {
                 "type": "simpleroad",
-                "x": 14
+                "x": 14,
+                "player":"green"
             }
         ],
         [
             {
                 "type": "simpleroad",
-                "x": 4
+                "x": 4,
+                "player":"red"
             },
             {
                 "type": "simpleroad",
-                "x": 14
+                "x": 14,
+                "player":"green"
+            }
+        ],
+        [
+            {
+                "type": "simpleroad",
+                "x": 0,
+                "player":"red"
+            },
+            {
+                "type": "simpleroad",
+                "x": 1,
+                "player":"red"
+            },
+            {
+                "type": "simpleroad",
+                "x": 2,
+                "player":"red"
+            },
+            {
+                "type": "simpleroad",
+                "x": 3,
+                "player":"red"
+            },
+            {
+                "type": "simpleroad",
+                "x": 4,
+                "player":"red"
+            },
+            {
+                "type": "simpleroad",
+                "x": 14,
+                "player":"green"
+            },
+            {
+                "type": "simpleroad",
+                "x": 15,
+                "player":"green"
+            },
+            {
+                "type": "simpleroad",
+                "x": 16,
+                "player":"green"
+            },
+            {
+                "type": "simpleroad",
+                "x": 17,
+                "player":"green"
+            },
+            {
+                "type": "simpleroad",
+                "x": 18,
+                "player":"green"
+            }
+        ],
+        [
+            {
+                "type": "simpleroad",
+                "x": 0,
+                "player":"red"
+            },
+            {
+                "type": "simpleroad",
+                "x": 18,
+                "player":"green"
             }
         ],
         [
             {
                 "type": "start",
-                "x": 0
-            },
-            {
-                "type": "simpleroad",
-                "x": 1
-            },
-            {
-                "type": "simpleroad",
-                "x": 2
-            },
-            {
-                "type": "simpleroad",
-                "x": 3
-            },
-            {
-                "type": "simpleroad",
-                "x": 4
-            },
-            {
-                "type": "simpleroad",
-                "x": 14
-            },
-            {
-                "type": "simpleroad",
-                "x": 15
-            },
-            {
-                "type": "simpleroad",
-                "x": 16
-            },
-            {
-                "type": "simpleroad",
-                "x": 17
-            },
-            {
-                "type": "simpleroad",
-                "x": 18
-            }
-        ],
-        [
-            {
-                "type": "simpleroad",
-                "x": 0
-            },
-            {
-                "type": "simpleroad",
-                "x": 18
-            }
-        ],
-        [
-            {
-                "type": "simpleroad",
-                "x": 0
+                "x": 0,
+                "player":"red"
             },
             {
                 "type": "ladder",
-                "x": 1
+                "x": 1,
+                "player":"red"
             },
             {
                 "type": "ladder",
-                "x": 2
+                "x": 2,
+                "player":"red"
             },
             {
                 "type": "ladder",
-                "x": 3
+                "x": 3,
+                "player":"red"
             },
             {
                 "type": "ladder",
-                "x": 4
+                "x": 4,
+                "player":"red"
             },
             {
                 "type": "ladder",
-                "x": 14
+                "x": 14,
+                "player":"gold"
             },
             {
                 "type": "ladder",
-                "x": 15
+                "x": 15,
+                "player":"gold"
             },
             {
                 "type": "ladder",
-                "x": 16
+                "x": 16,
+                "player":"gold"
             },
             {
                 "type": "ladder",
-                "x": 17
-            },
-            {
-                "type": "simpleroad",
-                "x": 18
-            }
-        ],
-        [
-            {
-                "type": "simpleroad",
-                "x": 0
-            },
-            {
-                "type": "simpleroad",
-                "x": 18
-            }
-        ],
-        [
-            {
-                "type": "simpleroad",
-                "x": 0
-            },
-            {
-                "type": "simpleroad",
-                "x": 1
-            },
-            {
-                "type": "simpleroad",
-                "x": 2
-            },
-            {
-                "type": "simpleroad",
-                "x": 3
-            },
-            {
-                "type": "simpleroad",
-                "x": 4
-            },
-            {
-                "type": "simpleroad",
-                "x": 14
-            },
-            {
-                "type": "simpleroad",
-                "x": 15
-            },
-            {
-                "type": "simpleroad",
-                "x": 16
-            },
-            {
-                "type": "simpleroad",
-                "x": 17
+                "x": 17,
+                "player":"gold"
             },
             {
                 "type": "start",
-                "x": 18
+                "x": 18,
+                "player":"gold"
             }
         ],
         [
             {
                 "type": "simpleroad",
-                "x": 4
+                "x": 0,
+                "player":"skyblue"
             },
             {
                 "type": "simpleroad",
-                "x": 14
+                "x": 18,
+                "player":"gold"
             }
         ],
         [
             {
                 "type": "simpleroad",
-                "x": 4
+                "x": 0,
+                "player":"skyblue"
             },
             {
                 "type": "simpleroad",
-                "x": 14
+                "x": 1,
+                "player":"skyblue"
+            },
+            {
+                "type": "simpleroad",
+                "x": 2,
+                "player":"skyblue"
+            },
+            {
+                "type": "simpleroad",
+                "x": 3,
+                "player":"skyblue"
+            },
+            {
+                "type": "simpleroad",
+                "x": 4,
+                "player":"skyblue"
+            },
+            {
+                "type": "simpleroad",
+                "x": 14,
+                "player":"gold"
+            },
+            {
+                "type": "simpleroad",
+                "x": 15,
+                "player":"gold"
+            },
+            {
+                "type": "simpleroad",
+                "x": 16,
+                "player":"gold"
+            },
+            {
+                "type": "simpleroad",
+                "x": 17,
+                "player":"gold"
+            },
+            {
+                "type": "simpleroad",
+                "x": 18,
+                "player":"gold"
+            }
+        ],
+        [
+            {
+                "type": "simpleroad",
+                "x": 4,
+                "player":"skyblue"
+            },
+            {
+                "type": "simpleroad",
+                "x": 14,
+                "player":"gold"
+            }
+        ],
+        [
+            {
+                "type": "simpleroad",
+                "x": 4,
+                "player":"skyblue"
+            },
+            {
+                "type": "simpleroad",
+                "x": 14,
+                "player":"gold"
             }
         ],
          [
             {
                 "type": "teleportation",
-                "x": 4
+                "x": 4,
+                "player":"skyblue"
             },
             {
                 "type": "simpleroad",
-                "x": 5
+                "x": 5,
+                "player":"skyblue"
             },
             {
                 "type": "simpleroad",
-                "x": 6
+                "x": 6,
+                "player":"skyblue"
             },
             {
                 "type": "simpleroad",
-                "x": 7
+                "x": 7,
+                "player":"skyblue"
             },
             {
                 "type": "ladder",
-                "x": 9
+                "x": 9,
+                "player":"skyblue"
             },
             {
                 "type": "simpleroad",
-                "x": 11
+                "x": 11,
+                "player":"gold"
             },
             {
                 "type": "simpleroad",
-                "x": 12
+                "x": 12,
+                "player":"gold"
             },
             {
                 "type": "simpleroad",
-                "x": 13
+                "x": 13,
+                "player":"gold"
             },
             {
                 "type": "teleportation",
-                "x": 14
+                "x": 14,
+                "player":"gold"
             }
         ],
          [
             {
                 "type": "simpleroad",
-                "x": 7
+                "x": 7,
+                "player":"skyblue"
             },
             {
                 "type": "ladder",
-                "x": 9
+                "x": 9,
+                "player":"skyblue"
             },
             {
                 "type": "simpleroad",
-                "x": 11
+                "x": 11,
+                "player":"gold"
             }
         ],
          [
             {
                 "type": "box",
-                "x": 1
+                "x": 1,
+                "player":"skyblue"
             },
             {
                 "type": "box",
-                "x": 2
+                "x": 2,
+                "player":"skyblue"
             },
             {
                 "type": "simpleroad",
-                "x": 7
+                "x": 7,
+                "player":"skyblue"
             },
             {
                 "type": "ladder",
-                "x": 9
+                "x": 9,
+                "player":"skyblue"
             },
             {
                 "type": "simpleroad",
-                "x": 11
+                "x": 11,
+                "player":"gold"
             },
             {
                 "type": "box",
-                "x": 16
+                "x": 16,
+                "player":"gold"
             },
             {
                 "type": "box",
-                "x": 17
+                "x": 17,
+                "player":"gold"
             }
         ],
          [
             {
                 "type": "box",
-                "x": 1
+                "x": 1,
+                "player":"skyblue"
             },
             {
                 "type": "box",
-                "x": 2
+                "x": 2,
+                "player":"skyblue"
             },
             {
                 "type": "simpleroad",
-                "x": 7
+                "x": 7,
+                "player":"skyblue"
             },
             {
                 "type": "ladder",
-                "x": 9
+                "x": 9,
+                "player":"skyblue"
             },
             {
                 "type": "simpleroad",
-                "x": 11
+                "x": 11,
+                "player":"gold"
             },
             {
                 "type": "box",
-                "x": 16
+                "x": 16,
+                "player":"gold"
             },
             {
                 "type": "box",
-                "x": 17
+                "x": 17,
+                "player":"gold"
             }
         ],
         [
             {
+                "type": "simpleroad",
+                "x": 7,
+                "player":"skyblue"
+            },
+            {
+                "type": "simpleroad",
+                "x": 8,
+                "player":"skyblue"
+            },
+            {
                 "type": "start",
-                "x": 7
+                "x": 9,
+                "player":"skyblue"
             },
             {
                 "type": "simpleroad",
-                "x": 8
+                "x": 10,
+                "player":"gold"
             },
             {
                 "type": "simpleroad",
-                "x": 9
-            },
-            {
-                "type": "simpleroad",
-                "x": 10
-            },
-            {
-                "type": "simpleroad",
-                "x": 11
+                "x": 11,
+                "player":"gold"
             }
         ]
     ]
