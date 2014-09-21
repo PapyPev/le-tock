@@ -3,7 +3,7 @@
 
 #############################################################
 # Python Program - Main.py
-# 
+#
 # project	: le-tock
 # @authors	: Guillaume Josserand - Pierre Vrot
 # @date		: 2014-09-18
@@ -12,7 +12,8 @@
 
 from Players import Players
 from Games import Games
-from Interface import Interface
+from Ihm import *
+from Horse import Horse
 
 #############################################################
 ### MAIN
@@ -29,5 +30,3 @@ did = petitpois.id
 print(name, did)
 
 tagada.playCard()
-
-

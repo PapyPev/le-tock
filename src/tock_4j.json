@@ -32,7 +32,7 @@
                 "player":"red"
             },
             {
-                "type": "start",
+                "type": "simpleroad",
                 "x": 9,
                 "player":"green"
             },
@@ -42,7 +42,7 @@
                 "player":"green"
             },
             {
-                "type": "simpleroad",
+                "type": "start",
                 "x": 11,
                 "player":"green"
             }
@@ -211,75 +211,75 @@
         ],
         [
             {
-                "type": "simpleroad",
-                "x": 0,
-                "player":"red"
-            },
-            {
-                "type": "simpleroad",
-                "x": 1,
-                "player":"red"
-            },
-            {
-                "type": "simpleroad",
-                "x": 2,
-                "player":"red"
-            },
-            {
-                "type": "simpleroad",
-                "x": 3,
-                "player":"red"
-            },
-            {
-                "type": "simpleroad",
-                "x": 4,
-                "player":"red"
-            },
-            {
-                "type": "simpleroad",
-                "x": 14,
-                "player":"green"
-            },
-            {
-                "type": "simpleroad",
-                "x": 15,
-                "player":"green"
-            },
-            {
-                "type": "simpleroad",
-                "x": 16,
-                "player":"green"
-            },
-            {
-                "type": "simpleroad",
-                "x": 17,
-                "player":"green"
-            },
-            {
-                "type": "simpleroad",
-                "x": 18,
-                "player":"green"
-            }
-        ],
-        [
-            {
-                "type": "simpleroad",
-                "x": 0,
-                "player":"red"
-            },
-            {
-                "type": "simpleroad",
-                "x": 18,
-                "player":"green"
-            }
-        ],
-        [
-            {
                 "type": "start",
                 "x": 0,
                 "player":"red"
             },
             {
+                "type": "simpleroad",
+                "x": 1,
+                "player":"red"
+            },
+            {
+                "type": "simpleroad",
+                "x": 2,
+                "player":"red"
+            },
+            {
+                "type": "simpleroad",
+                "x": 3,
+                "player":"red"
+            },
+            {
+                "type": "simpleroad",
+                "x": 4,
+                "player":"red"
+            },
+            {
+                "type": "simpleroad",
+                "x": 14,
+                "player":"green"
+            },
+            {
+                "type": "simpleroad",
+                "x": 15,
+                "player":"green"
+            },
+            {
+                "type": "simpleroad",
+                "x": 16,
+                "player":"green"
+            },
+            {
+                "type": "simpleroad",
+                "x": 17,
+                "player":"green"
+            },
+            {
+                "type": "simpleroad",
+                "x": 18,
+                "player":"green"
+            }
+        ],
+        [
+            {
+                "type": "simpleroad",
+                "x": 0,
+                "player":"red"
+            },
+            {
+                "type": "simpleroad",
+                "x": 18,
+                "player":"green"
+            }
+        ],
+        [
+            {
+                "type": "simpleroad",
+                "x": 0,
+                "player":"red"
+            },
+            {
                 "type": "ladder",
                 "x": 1,
                 "player":"red"
@@ -316,75 +316,75 @@
             },
             {
                 "type": "ladder",
+                "x": 17,
+                "player":"gold"
+            },
+            {
+                "type": "simpleroad",
+                "x": 18,
+                "player":"gold"
+            }
+        ],
+        [
+            {
+                "type": "simpleroad",
+                "x": 0,
+                "player":"skyblue"
+            },
+            {
+                "type": "simpleroad",
+                "x": 18,
+                "player":"gold"
+            }
+        ],
+        [
+            {
+                "type": "simpleroad",
+                "x": 0,
+                "player":"skyblue"
+            },
+            {
+                "type": "simpleroad",
+                "x": 1,
+                "player":"skyblue"
+            },
+            {
+                "type": "simpleroad",
+                "x": 2,
+                "player":"skyblue"
+            },
+            {
+                "type": "simpleroad",
+                "x": 3,
+                "player":"skyblue"
+            },
+            {
+                "type": "simpleroad",
+                "x": 4,
+                "player":"skyblue"
+            },
+            {
+                "type": "simpleroad",
+                "x": 14,
+                "player":"gold"
+            },
+            {
+                "type": "simpleroad",
+                "x": 15,
+                "player":"gold"
+            },
+            {
+                "type": "simpleroad",
+                "x": 16,
+                "player":"gold"
+            },
+            {
+                "type": "simpleroad",
                 "x": 17,
                 "player":"gold"
             },
             {
                 "type": "start",
-                "x": 18,
-                "player":"gold"
-            }
-        ],
-        [
-            {
-                "type": "simpleroad",
-                "x": 0,
-                "player":"skyblue"
-            },
-            {
-                "type": "simpleroad",
-                "x": 18,
-                "player":"gold"
-            }
-        ],
-        [
-            {
-                "type": "simpleroad",
-                "x": 0,
-                "player":"skyblue"
-            },
-            {
-                "type": "simpleroad",
-                "x": 1,
-                "player":"skyblue"
-            },
-            {
-                "type": "simpleroad",
-                "x": 2,
-                "player":"skyblue"
-            },
-            {
-                "type": "simpleroad",
-                "x": 3,
-                "player":"skyblue"
-            },
-            {
-                "type": "simpleroad",
-                "x": 4,
-                "player":"skyblue"
-            },
-            {
-                "type": "simpleroad",
-                "x": 14,
-                "player":"gold"
-            },
-            {
-                "type": "simpleroad",
-                "x": 15,
-                "player":"gold"
-            },
-            {
-                "type": "simpleroad",
-                "x": 16,
-                "player":"gold"
-            },
-            {
-                "type": "simpleroad",
-                "x": 17,
-                "player":"gold"
-            },
-            {
-                "type": "simpleroad",
                 "x": 18,
                 "player":"gold"
             }
@@ -553,7 +553,7 @@
         ],
         [
             {
-                "type": "simpleroad",
+                "type": "start",
                 "x": 7,
                 "player":"skyblue"
             },
@@ -563,7 +563,7 @@
                 "player":"skyblue"
             },
             {
-                "type": "start",
+                "type": "simpleroad",
                 "x": 9,
                 "player":"skyblue"
             },

@@ -1,60 +1,52 @@
 # -*- coding: utf-8 -*-
 
 import sys, os, tkinter, json
-from pprint import pprint
-    
-"""
-root=tkinter.Tk()
-size_grid_x = 350
-size_grid_y = 200
-fond=tkinter.Canvas(root, width=size_grid_x, height=size_grid_y, background='darkgray')
-fond.pack()
-i = 0
-while i*10<size_grid_x:
-    ligne=fond.create_line(0 + i * 10,0,0 + i * 10,size_grid_y, width=2)
-    ligne=fond.create_line(0,0+ i * 10,size_grid_x, 0 + i * 10, width=2)
-    #fond.create_rectangle(0 , 0, 0, 0)
-    i+=1
-
-root.mainloop()
-"""
 
 file=open('tock_4j.json', 'r')
 jsonString = file.read()
 file.close()
 
 data = json.loads(jsonString)
-#if 'nbPlayers' in data:
-   # print(data['nbPlayers'])
-   # print(data['cellTypes'])
     
 #########################################################
-root=tkinter.Tk()
-size_grid_x = data['gridwidth']*20
-size_grid_y = data['gridheight']*20
-fond=tkinter.Canvas(root, width=size_grid_x, height=size_grid_y, background='darkgray')
+window=tkinter.Tk()
+size_case = 20
+size_grid_x = data['gridwidth']*size_case
+size_grid_y = data['gridheight']*size_case
+fond=tkinter.Canvas(window, width=size_grid_x, height=size_grid_y, background='darkgray')
 fond.pack()
 i = 0
 j = 0
+
+grid = [[0] * data['gridwidth'] for _ in range(data['gridheight'])]
 for row in data['cells']:
     for cel in row:
         
         if cel['type'] == 'teleportation':
-            fond.create_rectangle(0 + cel['x']*20 , 0 + j*20, 20 + cel['x']*20, 20 + j*20, fill=data['cellTypes']['teleportation']['color'])
-        #fond.create_rectangle(0 + cel['x']*20 , 0 + j*20, 10 + cel['x']*20, 20 + j*20, fill=data['cellTypes'][cel['type']]['color'])
-
+            fond.create_rectangle(0 + cel['x']*size_case , 0 + j*size_case, size_case + cel['x']*size_case, size_case + j*size_case, fill=data['cellTypes']['teleportation']['color'])
+            grid[j][i]='teleportation'
         elif cel['type'] == 'start':
-            fond.create_rectangle(0 + cel['x']*20 , 0 + j*20, 20 + cel['x']*20, 20 + j*20, fill=data['cellTypes']['start']['color'])
+            fond.create_rectangle(0 + cel['x']*size_case , 0 + j*size_case, size_case + cel['x']*size_case, size_case + j*size_case, fill=data['cellTypes']['start']['color'])
+            grid[j][i]='start'
         else:
-            fond.create_rectangle(0 + cel['x']*20 , 0 + j*20, 20 + cel['x']*20, 20 + j*20, fill=cel['player'])
+            fond.create_rectangle(0 + cel['x']*size_case , 0 + j*size_case, size_case + cel['x']*size_case, size_case + j*size_case, fill=cel['player'])
+            grid[j][i]='simpleroad'
         
         i += 1
     i=0
-    j += 1  
+    j += 1
 
-root.mainloop()
+coord_x = 90
+coord_y = 110
+radius = 10
+fond.create_oval(coord_x-radius, coord_y-radius, coord_x+radius, coord_y+radius, width=1, fill='skyblue')
+
+window.mainloop()
 
 ##print(data['cells'][0]) #--> La premiere ligne
 ##print(data['cells'][0][0])# -->La cellule
 ##print(data['cells'][0][0]['type'])# --> L'info de la cellule
+
+
+print(grid)
 
