@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import sys, os, tkinter, json
+import sys, os, Tkinter, json
 
 file=open('tock_4j.json', 'r')
 jsonString = file.read()

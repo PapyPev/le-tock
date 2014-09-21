@@ -12,7 +12,6 @@
 
 from Players import Players
 from Games import Games
-from Ihm import *
 from Horse import Horse
 
 #############################################################
