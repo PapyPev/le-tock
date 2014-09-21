@@ -4,9 +4,9 @@
 #############################################################
 # Python Program - Main.py
 #
-# project	: le-tock
-# @authors	: Guillaume Josserand - Pierre Vrot
-# @date		: 2014-09-18
+# project   : le-tock
+# @authors  : Guillaume Josserand - Pierre Vrot
+# @date     : 2014-09-18
 #
 #############################################################
 
@@ -19,14 +19,19 @@ from Horse import Horse
 ### MAIN
 #############################################################
 
-tagada = Players("tagado", "blue", None)
-name = tagada.name
-did = tagada.id
-print(name, did)
+#That test forbids Main to be imported in another .py and their functions used.
+#Works like a main in C language.
 
-petitpois = Players("petitpois", "red", 1)
-name = petitpois.name
-did = petitpois.id
-print(name, did)
+if __name__ == "__main__":
 
-tagada.playCard()
+    tagada = Players("tagado", "blue", None)
+    name = tagada.name
+    did = tagada.id
+    print(name, did)
+
+    petitpois = Players("petitpois", "red", 1)
+    name = petitpois.name
+    did = petitpois.id
+    print(name, did)
+
+    tagada.playCard()

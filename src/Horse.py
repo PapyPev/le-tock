@@ -4,9 +4,9 @@
 #############################################################
 # Python Program - Horse.py
 #
-# project	: le-tock
-# @authors	: Guillaume Josserand - Pierre Vrot
-# @date		: 2014-09-21
+# project   : le-tock
+# @authors  : Guillaume Josserand - Pierre Vrot
+# @date     : 2014-09-21
 #
 #############################################################
 
