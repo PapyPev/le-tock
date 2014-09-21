@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 import sys, os, Tkinter, json
@@ -9,11 +10,11 @@ file.close()
 data = json.loads(jsonString)
     
 #########################################################
-window=tkinter.Tk()
+window=Tkinter.Tk()
 size_case = 20
 size_grid_x = data['gridwidth']*size_case
 size_grid_y = data['gridheight']*size_case
-fond=tkinter.Canvas(window, width=size_grid_x, height=size_grid_y, background='darkgray')
+fond=Tkinter.Canvas(window, width=size_grid_x, height=size_grid_y, background='darkgray')
 fond.pack()
 i = 0
 j = 0
